@@ -1,0 +1,60 @@
+/**
+ * Copyright 2022 Bemenet Semegnew
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/* tailwindcss modules */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* apply directives */
+.container{
+    @apply text-base sm:text-lg font-sans grid items-center grid-cols-1 md:grid-cols-3 gap-6 w-full h-auto content-center justify-center
+}
+.link{
+    @apply items-start md:px-3 text-center hover:text-slate-300 cursor-pointer text-base md:text-lg w-full focus:pb-2 md:focus:border-b-2 focus:border-purple-400 focus:hover:border-slate-300 transition-all duration-150 hover:translate-x-1
+}
+.button{
+    @apply text-center mx-auto border-2 border-purple-400 text-purple-500 rounded-lg mt-8 text-base font-semibold md:font-normal md:text-lg py-1 hover:bg-purple-400 hover:text-slate-100 hover:shadow-xl transition-all duration-200 hover:translate-x-px hover:translate-y-px
+}
+
+/* fonts */
+@import url('http://fonts.cdnfonts.com/css/gladiator-sport');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* vanilla css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body    {
+    background-color: white;
+    width: 100-vw;
+    height: 100-vh;
+    /* Created with https://www.css-gradient.com */
+    font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* background-image: linear-gradient(to right bottom, #415a77, #334963, #26394f, #192a3c, #0d1b2a); */
+    /* background: url("https://images.unsplash.com/photo-1612538498456-e861df91d4d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80") no-repeat center center fixed;
+    background-size: cover; */
+}
