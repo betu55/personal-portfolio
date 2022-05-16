@@ -26,7 +26,7 @@
     @apply items-start md:px-3 text-center hover:text-slate-300 cursor-pointer text-base md:text-lg w-full focus:pb-2 md:focus:border-b-2 focus:border-purple-400 focus:hover:border-slate-300 transition-all duration-150 hover:translate-x-1
 }
 .button{
-    @apply text-center mx-auto border-2 border-purple-400 text-purple-500 rounded-lg mt-8 text-base font-semibold md:font-normal md:text-lg py-1 hover:bg-purple-400 hover:text-slate-100 hover:shadow-xl transition-all duration-200 hover:translate-x-px hover:translate-y-px
+    @apply text-center mx-auto border-2 border-purple-400 text-purple-500 rounded-lg mt-8 text-base font-semibold md:font-normal md:text-lg py-1 hover:bg-purple-400 hover:text-slate-100 hover:shadow-xl transition-all duration-100 hover:translate-x-px hover:translate-y-px
 }
 
 /* fonts */

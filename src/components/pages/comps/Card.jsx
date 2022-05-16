@@ -14,8 +14,11 @@
 
 const col = {
   "C#": <span className="text-green-500 text-lg md:text-xl">•</span>,
-  HTML: <span className="text-orange-500 text-lg md:text-xl">•</span>,
+  HTML: <span className="text-orange-600 text-lg md:text-xl">•</span>,
+  Swift: <span className="text-orange-500 text-lg md:text-xl">•</span>,
   Dart: <span className="text-cyan-500 text-lg md:text-xl">•</span>,
+  Kotlin: <span className="text-purple-500 text-lg md:text-xl">•</span>,
+  "Objective-C": <span className="text-blue-500 text-lg md:text-xl">•</span>,
   Other: <span className="text-gray-400 text-lg md:text-xl">•</span>,
   Python: <span className="text-cyan-700 text-lg md:text-xl">•</span>,
   JSON: <span className="text-gray-600 text-lg md:text-xl">•</span>,

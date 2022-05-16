@@ -16,16 +16,11 @@ import { useState, useEffect } from "react";
 
 const Home = () => {
   const d = new Date();
-  let hrs, mins, secs, ampm;
+  let ampm;
 
-  hrs = d.toLocaleTimeString().slice(0, 2).toString();
-  mins = d.toLocaleTimeString().slice(3, 5).toString();
-  secs = d.toLocaleTimeString().slice(6, 8).toString();
-  ampm = d.toLocaleTimeString().slice(9, 11).toString();
+  ampm = d.toLocaleTimeString().slice(8, 11).toString();
 
-  let [time, setTime] = useState(
-    hrs + ":" + mins + ":" + secs + " " + ampm + " "
-  );
+  let [time, setTime] = useState("00" + ":" + "00" + ":" + "00" + " " + ampm);
 
   useEffect(() => {
     let interval = null;
